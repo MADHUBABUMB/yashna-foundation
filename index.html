@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7f1020">
+  <meta name="description" content="Yashna Foundation Telangana — sharing blood, sharing food, protecting nature, and caring for animals.">
+  <title>Yashna Foundation Telangana | Share Life, Share Hope</title>
+  <style>
+    :root{--maroon:#c9161d;--red:#e21b23;--navy:#064a9b;--green:#167447;--cream:#f7faff;--ink:#172b45;--muted:#5d6c80;--line:#d9e4f2;--gold:#f4b928}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:84px}body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}
+    .topbar{background:var(--maroon);color:#fff;font-size:.88rem;padding:8px 0;text-align:center}
+    header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid #eee}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:78px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--red);line-height:1.15}.brand img{width:54px;height:54px;object-fit:contain;border-radius:50%}.brand small{display:block;color:var(--navy);font-size:.7rem;letter-spacing:.14em;margin-top:4px}
+    nav{display:flex;align-items:center;gap:22px;font-size:.94rem;font-weight:600}nav a:hover{color:var(--red)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:999px;padding:12px 21px;font-weight:750;cursor:pointer;transition:.2s;gap:8px}
+    .btn-primary{background:var(--navy);color:#fff;box-shadow:0 8px 22px #064a9b25}.btn-primary:hover{background:#033873;transform:translateY(-2px)}.btn-light{background:#fff;color:var(--navy)}.btn-outline{border:1px solid #ffffffa8;color:#fff;background:transparent}
+    .hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#063b7c 0%,#0756a8 58%,#c9161d 100%);color:white;padding:78px 0 86px}
+    .hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff18;border-radius:50%;width:430px;height:430px;right:-100px;top:-190px}.hero:after{width:300px;height:300px;right:35px;top:-120px}
+    .hero-grid{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:42px;position:relative;z-index:1}
+    .eyebrow{display:inline-block;text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:800;color:#ffdc72;margin-bottom:15px}
+    h1{font-size:clamp(2.55rem,5.5vw,4.65rem);line-height:1.04;letter-spacing:-.035em;margin:0 0 22px;max-width:720px}
+    .hero p{font-size:1.1rem;color:#eef5ff;max-width:610px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+    .hero-art{display:flex;justify-content:center;align-items:center}.logo-card{background:white;border-radius:28px;padding:22px;max-width:370px;width:100%;box-shadow:0 25px 80px #27050b55;transform:rotate(1deg)}.logo-card img{display:block;width:100%;height:auto}
+    .impact{position:relative;margin-top:-28px;z-index:2}.impact-grid{display:grid;grid-template-columns:repeat(4,1fr);background:white;border-radius:18px;box-shadow:0 14px 40px #123d6b12;border:1px solid #e1eaf5;overflow:hidden}
+    .impact-item{text-align:center;padding:24px 12px;border-right:1px solid var(--line)}.impact-item:last-child{border:0}.impact-item strong{display:block;font-size:1.12rem;color:var(--navy)}.impact-item span{font-size:.87rem;color:var(--muted)}
+    section{padding:82px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 38px}.kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;font-weight:850;color:var(--green)}h2{font-size:clamp(2rem,4vw,3rem);line-height:1.15;letter-spacing:-.035em;margin:10px 0 14px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+    .mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}.mission-panel{background:var(--cream);border:1px solid #f0e6dc;border-radius:20px;padding:34px}.mission-panel h3{margin:0 0 12px;color:var(--navy);font-size:1.45rem}.mission-panel p{color:var(--muted)}.values{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:20px}.value{padding:15px;background:#fff;border-radius:14px;border:1px solid var(--line);font-weight:700}.value span{display:block;font-size:.84rem;color:var(--muted);font-weight:400;margin-top:4px}
+    .causes{background:#f4f8fd}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.cause{background:#fff;border:1px solid #dfe9f5;border-radius:18px;padding:27px 23px;box-shadow:0 10px 28px #123d6b0b}.cause-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:16px;background:#fff0f0;font-size:1.65rem;margin-bottom:18px}.cause:nth-child(2) .cause-icon{background:#fff7df}.cause:nth-child(3) .cause-icon{background:#e6f6ed}.cause:nth-child(4) .cause-icon{background:#e8f2ff}.cause h3{font-size:1.14rem;margin:0 0 8px;color:var(--navy)}.cause p{font-size:.93rem;color:var(--muted);margin:0 0 14px}.learn{font-weight:750;color:var(--navy);font-size:.9rem}
+    .join-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.join-card{border-radius:20px;padding:32px;background:var(--navy);color:#fff}.join-card:nth-child(2){background:var(--red)}.join-card h3{font-size:1.65rem;margin:0 0 10px}.join-card p{color:#ffffffd9;margin:0 0 22px}
+    .contact{background:var(--cream)}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:38px;align-items:start}.contact-copy p{color:var(--muted)}.contact-details{margin-top:22px;display:grid;gap:10px}.contact-details div{padding:13px 15px;background:white;border:1px solid var(--line);border-radius:12px}.form{background:white;padding:28px;border-radius:22px;border:1px solid var(--line);box-shadow:0 10px 30px #45201608}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}.field label{font-weight:700;font-size:.9rem}.field input,.field select,.field textarea{width:100%;padding:12px 13px;border:1px solid #d8dfe1;border-radius:10px;font:inherit;background:#fff}.field textarea{min-height:110px;resize:vertical}.form-note{font-size:.82rem;color:var(--muted);margin:12px 0 0}
+    footer{background:#082e5c;color:#eaf2ff;padding:36px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}.footer-brand{font-weight:800}.footer-brand span{display:block;font-weight:400;font-size:.85rem;color:#b9c9d2}.footer-links{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem}.social-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.social-link{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid #d9e4f2;border-radius:999px;background:#fff;color:#064a9b;font-size:.9rem;font-weight:750;transition:.2s}.social-link:hover{border-color:#c9161d;color:#c9161d;transform:translateY(-1px)}.footer-social{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.footer-social a{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border:1px solid #ffffff35;border-radius:999px;color:#fff;font-size:.86rem}.footer-social a:hover{background:#ffffff15}.copyright{font-size:.82rem;color:#b9c9d2;margin-top:22px;border-top:1px solid #ffffff20;padding-top:18px}
+    .notice{font-size:.82rem;color:#f7d7d7;margin-top:17px}.mobile-toggle{display:none}
+    @media(max-width:900px){nav{gap:12px;font-size:.88rem}.cards{grid-template-columns:repeat(2,1fr)}.hero-grid{gap:22px}.logo-card{max-width:310px}}
+    @media(max-width:680px){.nav{min-height:70px;flex-wrap:wrap;padding:8px 0}.brand img{width:46px;height:46px}nav{display:none;width:100%;padding:0 0 12px;flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:10px 0;border-top:1px solid #eee}.nav>.btn{display:none}.mobile-toggle{display:inline-flex;background:#edf4ff;color:var(--navy);border:0;border-radius:10px;padding:10px 13px;font-weight:800}.hero{padding:54px 0 62px}.hero-grid,.mission-grid,.contact-grid{grid-template-columns:1fr}.hero-art{order:-1}.logo-card{max-width:210px;padding:12px;border-radius:18px}.hero p{font-size:1rem}.impact-grid{grid-template-columns:1fr 1fr}.impact-item:nth-child(2){border-right:0}.impact-item:nth-child(-n+2){border-bottom:1px solid var(--line)}section{padding:62px 0}.cards{grid-template-columns:1fr}.join-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.values{grid-template-columns:1fr 1fr}.footer-row{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="topbar">YASHNA FOUNDATION TELANGANA  •  BLOOD DONATION  •  FOOD DONATION  •  SOCIAL SERVICE</div>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Yashna Foundation home">
+        <img src="yashna-foundation-logo.png" alt="Yashna Foundation logo">
+        <span>YASHNA FOUNDATION<small>TELANGANA · SERVICE · HUMANITY</small></span>
+      </a>
+      <button class="mobile-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰ Menu</button>
+      <nav id="mainNav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#causes">Our Causes</a><a href="#get-involved">Get Involved</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary" href="#get-involved">Be the Change ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">SERVICE • HUMANITY • COMPASSION</span>
+          <h1>Together, we can<br>make a difference.<br><span style="color:#ffdc72">Every life matters.</span></h1>
+          <p>We bring people together to share blood, provide food to those in need, protect our environment, and care for animals who cannot speak for themselves.</p>
+          <div class="actions"><a class="btn btn-light" href="#get-involved">❤️ Get Involved</a><a class="btn btn-outline" href="#causes">Explore Our Causes ↓</a></div>
+          <div class="notice">Every helping hand can make a real difference.</div>
+        </div>
+        <div class="hero-art"><div class="logo-card"><img src="yashna-foundation-logo.png" alt="Yashna Foundation Telangana emblem"></div></div>
+      </div>
+    </section>
+
+    <div class="wrap impact"><div class="impact-grid">
+      <div class="impact-item"><strong>🩸 Share Blood</strong><span>Help save a life</span></div>
+      <div class="impact-item"><strong>🍲 Share Food</strong><span>Fight hunger with care</span></div>
+      <div class="impact-item"><strong>🌱 Save Nature</strong><span>Protect our planet</span></div>
+      <div class="impact-item"><strong>🐾 Protect Animals</strong><span>Kindness for every life</span></div>
+    </div></div>
+
+    <section id="about">
+      <div class="wrap mission-grid">
+        <div>
+          <span class="kicker">Who we are</span><h2>Compassion is where change begins.</h2>
+          <p>Yashna Foundation Telangana is built around a simple belief: every life matters. By bringing volunteers and caring people together, we aim to turn kindness into practical action for people, animals, and the natural world.</p>
+          <p>Whether it is helping someone find a blood donor, sharing a meal, planting a tree, or helping an animal in distress, every responsible action counts.</p>
+          <a class="btn btn-primary" href="#contact">Connect with our team</a>
+        </div>
+        <div class="mission-panel">
+          <h3>Our mission</h3>
+          <p>To encourage a culture of service, empathy, and environmental responsibility—one person, one community, and one act of kindness at a time.</p>
+          <div class="values">
+            <div class="value">❤️ Humanity<span>Support people with dignity.</span></div>
+            <div class="value">🤝 Community<span>Work together for good.</span></div>
+            <div class="value">🌿 Responsibility<span>Care for our shared home.</span></div>
+            <div class="value">🐾 Kindness<span>Respect every living being.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="causes" id="causes">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">What we stand for</span><h2>Four causes. One shared mission.</h2><p>Choose a cause close to your heart and help us turn good intentions into meaningful action.</p></div>
+        <div class="cards">
+          <article class="cause"><div class="cause-icon">🩸</div><h3>Blood Donation</h3><p>Help connect voluntary blood donors with people in need. Safe, eligible donations can give patients and families hope when time matters.</p><a class="learn" href="#contact">Offer support →</a></article>
+          <article class="cause"><div class="cause-icon">🍲</div><h3>Food for All</h3><p>Support food distribution and reduce food waste by helping meals reach people and families who need them.</p><a class="learn" href="#contact">Help share food →</a></article>
+          <article class="cause"><div class="cause-icon">🌳</div><h3>Save Nature</h3><p>Encourage tree planting, cleaner surroundings, responsible waste practices, and awareness that protects our environment.</p><a class="learn" href="#contact">Join green action →</a></article>
+          <article class="cause"><div class="cause-icon">🐕</div><h3>Animal Welfare</h3><p>Promote kindness to stray animals through responsible feeding, help-seeking for injured animals, and awareness of humane care.</p><a class="learn" href="#contact">Help animals →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-involved">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Be part of the change</span><h2>Your time and kindness matter.</h2><p>You do not need to do everything. Start with one action you can take today.</p></div>
+        <div class="join-grid">
+          <div class="join-card"><h3>🙌 Volunteer with us</h3><p>Join community activities, awareness campaigns, food drives, nature initiatives, or animal welfare efforts in your area.</p><a class="btn btn-light" href="#contact">I want to volunteer →</a></div>
+          <div class="join-card"><h3>🎁 Support a cause</h3><p>Offer supplies, share verified information, connect people who need help, or discuss a contribution with the foundation team.</p><a class="btn btn-outline" href="#contact">Discuss support →</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-copy"><span class="kicker">Let's connect</span><h2>Kindness starts with a conversation.</h2><p>Want to volunteer, request assistance, organize a drive, or partner with us? Send a message and our team can follow up.</p>
+          <div class="contact-details">
+            <div>📍 <strong>Address:</strong> Karimnagar, Telangana</div>
+            <div>📱 <strong>Phone / WhatsApp:</strong> <a href="tel:+919398473190">9398473190</a> · <a href="https://wa.me/919398473190" target="_blank" rel="noopener">Message on WhatsApp ↗</a></div>
+            <div>📷 <strong>Instagram:</strong> <a href="https://www.instagram.com/yashna_foundation/" target="_blank" rel="noopener noreferrer">@yashna_foundation ↗</a></div>
+            <div><strong>Follow / contact us</strong><div class="social-links">
+              <a class="social-link" href="https://www.instagram.com/yashna_foundation/" target="_blank" rel="noopener noreferrer" aria-label="Follow Yashna Foundation on Instagram">📷 Instagram ↗</a>
+              <a class="social-link" href="https://wa.me/919398473190" target="_blank" rel="noopener noreferrer" aria-label="Contact Yashna Foundation on WhatsApp">💬 WhatsApp ↗</a>
+            </div></div>
+            <div>🌐 <strong>Facebook, X, YouTube and LinkedIn:</strong> Send the exact official profile URLs to add direct links safely.</div>
+            <div>🪪 <strong>Registration details shown on your poster:</strong> Reg. No. 728 · Established 2026</div>
+          </div>
+        </div>
+        <form class="form" id="contactForm">
+          <div class="form-grid">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" required placeholder="Enter your name"></div>
+            <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" placeholder="Your contact number"></div>
+            <div class="field full"><label for="interest">How would you like to help?</label><select id="interest" name="interest" required><option value="">Choose a cause</option><option>Blood donation</option><option>Food distribution</option><option>Nature and tree planting</option><option>Stray animal welfare</option><option>Volunteering</option><option>Partnership or other support</option><option>Request assistance</option></select></div>
+            <div class="field full"><label for="message">Your message</label><textarea id="message" name="message" required placeholder="Tell us how we can work together..."></textarea></div>
+            <div class="field full"><button class="btn btn-primary" type="submit">Prepare message ↗</button><p class="form-note">This demo opens your email app when configured. Add the foundation's official email address in the code before publishing.</p></div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row"><div class="footer-brand">YASHNA FOUNDATION · TELANGANA<span>Reg. No. 728 · Established 2026 · Karimnagar, Telangana</span><span>Share blood. Share food. Share life.</span></div><div><div class="footer-links"><a href="#about">About</a><a href="#causes">Our causes</a><a href="#get-involved">Volunteer</a><a href="#contact">Contact</a></div><div class="footer-social"><a href="https://www.instagram.com/yashna_foundation/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/919398473190" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div></div></div>
+      <div class="copyright">© <span id="year"></span> Yashna Foundation Telangana. Serving people, protecting animals, and caring for nature.<br><small>Before launch, confirm the foundation's registration details and replace the contact placeholders with verified official information.</small></div>
+    </div>
+  </footer>
+  <script>
+    const menuToggle=document.getElementById('menuToggle'),nav=document.getElementById('mainNav');
+    menuToggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));});
+    nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');}));
+    document.getElementById('year').textContent=new Date().getFullYear();
+    document.getElementById('contactForm').addEventListener('submit',e=>{
+      e.preventDefault();
+      const foundationEmail=''; // Add the foundation's official email address here when available.
+      if(!foundationEmail){const d=new FormData(e.currentTarget);const msg='Hello Yashna Foundation!%0AName: '+encodeURIComponent(d.get('name'))+'%0APhone: '+encodeURIComponent(d.get('phone'))+'%0ACause: '+encodeURIComponent(d.get('interest'))+'%0AMessage: '+encodeURIComponent(d.get('message'));window.open('https://wa.me/919398473190?text='+msg,'_blank','noopener');return;}
+      const d=new FormData(e.currentTarget);
+      const subject=encodeURIComponent('Yashna Foundation enquiry: '+d.get('interest'));
+      const body=encodeURIComponent('Name: '+d.get('name')+'\nPhone: '+d.get('phone')+'\nInterest: '+d.get('interest')+'\n\nMessage:\n'+d.get('message'));
+      window.location.href='mailto:'+foundationEmail+'?subject='+subject+'&body='+body;
+    });
+  </script>
+</body>
+</html>
